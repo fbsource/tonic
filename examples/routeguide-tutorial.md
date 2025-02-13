@@ -175,7 +175,7 @@ Edit `Cargo.toml` and add all the dependencies we'll need for this example:
 ```toml
 [dependencies]
 tonic = "0.9"
-prost = "0.11"
+prost = "0.12"
 futures-core = "0.3"
 futures-util = "0.3"
 tokio = { version = "1.0", features = ["rt-multi-thread", "macros", "sync", "time"] }
