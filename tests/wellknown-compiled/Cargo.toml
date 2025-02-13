@@ -16,7 +16,7 @@ prost = "0.12"
 tonic = {path = "../../tonic"}
 
 [build-dependencies]
-prost-build = "0.11.6"
+prost-build = "0.12"
 tonic-build = {path = "../../tonic-build"}
 
 [package.metadata.cargo-machete]
